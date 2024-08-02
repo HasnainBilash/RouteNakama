@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+ 
+.head-title-pannel {
+    display: flex;
+    height: 150px;
+    background-color: transparent;
+    backdrop-filter: blur(9px);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    border-radius: 12px;
+}
+.left-section {
+    flex: 1;
+}
+.middle-section {
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px #000000;
+    width: 550px;
+    font-size: 70px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.right-section {
+    flex: 1;
+    text-align: right;
+}
+.middle-section:hover {
+    color: rgb(226, 192, 0);
+    cursor: pointer;
+}
+
+.logout-btn{
+    width: 200px;
+    height: 45px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    margin-right: 20px;
+
+  }
